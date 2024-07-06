@@ -10,18 +10,21 @@ if not exists("setting.json"):
 
 with open("setting.json", mode='r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
+
+class Event(Cog_Extension):
+
 # 群主進入退出訊息
     @commands.Cog.listener()
     async def on_member_join(self, member):
         channel = self.bot.get_channel(int(jdata['welcome_channel']))
         if channel:
-            await channel.send(f'{member.mention} 歡迎')
+            await channel.send(f'{member} 歡迎')
 
     @commands.Cog.listener()
     async def on_member_remove(self, member):
         channel = self.bot.get_channel(int(jdata['Leave_channel']))
         if channel:
-            await channel.send(f'{member.mention} 有緣再相會')
+            await channel.send(f'{member} 有緣再相會')
 
 
     @commands.Cog.listener()   
