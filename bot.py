@@ -31,19 +31,6 @@ async def on_ready():
     print(f'✅ {bot.user.name} 已經準備好了！')
 
 
-# 群主進入退出訊息
-@bot.event
-async def on_member_join(member):
-    channel = bot.get_channel(int(jdata['welcome_channel']))
-    if channel:
-        await channel.send(f'{member.mention} 歡迎')
-
-@bot.event
-async def on_member_remove(member):
-    channel = bot.get_channel(int(jdata['Leave_channel']))
-    if channel:
-        await channel.send(f'{member.mention} 有緣再相會')
-
 @bot.command()
 async def load(ctx, extension):
     bot.load_extension(f'cmds.{extension}')
