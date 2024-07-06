@@ -1,11 +1,11 @@
 {
- "TOKEN":"MTI0MjQ0NDg5ODEyNTM0ODkxNA.Gwh0Ct.RCe7ATTaTE4h4CHQ_bQEXaDdFccX8nSsFcTctA",
+ "TOKEN":"your TOKEN",
  "welcome_channel": "1241712382372347985",
  "Leave_channel": "1241712382372347985",
- "pic": ["C:\\GitHub\\discordbot\\JIM-bot\\pic\\IMG_0524.jpg","C:\\GitHub\\discordbot\\JIM-bot\\pic\\983326853345456158.gif" ],
+ "pic": ["" ],
 
- "url_pic": ["https://i.pinimg.com/200x/32/95/06/3295064e5c7017935b2c08bec7084ad7.jpg",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCXbmllgjDeLGyXGLoKbwawFnUS30orRSW-WYrYnW6Gw&s"]
+ "url_pic": ["",
+            ""]
 
 
 }
