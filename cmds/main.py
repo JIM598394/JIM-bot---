@@ -1,8 +1,11 @@
 import discord
 from discord.ext import commands
-from core.classes import Cog_Extension
+from core.classes import cog_Extension
 
-class Main(Cog_Extension):
+class Main(cog_Extension):
+    
+    
+    
     # 查看機器人延遲
     @commands.command()
     async def ping(self, ctx):
