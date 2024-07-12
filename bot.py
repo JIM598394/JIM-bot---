@@ -14,7 +14,7 @@ tracemalloc.start()
 
 intents = discord.Intents.all()
 intents.members = True
-bot = commands.Bot(command_prefix='e/',  intents=intents)
+bot = commands.Bot(command_prefix='[',  intents=intents)
 bot.remove_command('help')
 
 # 確保 setting.json 存在
