@@ -1,12 +1,11 @@
 # 機器人設定
-import asyncio
 import discord
 from discord.ext import commands
 import json
 import os
-import tracemalloc
 from os.path import exists
-import datetime
+import tracemalloc
+
 
 
 # 啟用 tracemalloc
