@@ -26,7 +26,7 @@ with open("setting.json", mode='r', encoding='utf8') as jfile:
 # 上線狀態
 @bot.event
 async def on_ready():
-    await bot.change_presence(status=discord.Status, activity=discord.Activity(type=discord.ActivityType.playing, name=""))
+    await bot.change_presence(status=discord.Status, activity=discord.Activity(type=discord.ActivityType.playing, name="❤"))
     print(f'✅ {bot.user.name} 已經準備好了！')
 
 
